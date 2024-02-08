@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <h2>Formulario</h2>
+        <section>
+            <form action="recibe.php" method="get">
+             <p>nom <input type="text" name="nom" id="nom"></p>
+             <p>Apellidos <input type="text" name="cognoms" id="cognoms"></p>
+             <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="reset">
+             </p>
+             Edad <input type="number" min="10" max="50" name="data">
+             <br>
+
+             <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="reset">
+                <input type="button" value="púlsame">
+             </p>
+            </form>
+            <section>
+                <textarea name="observacion" id="observacion" cols="30" rows="10"></textarea>
+
+            </section>
+            
+            Equipos
+            <select name="color" id="color"></select>
+            <option value="1">Barcelona</option>
+            <option value="2">Madrid</option>
+            <option value="3">Valencia</option>
+            <input type="submit" value="Enviar">
+        </section>
+    </section>
+    
+</body>
+</html>
